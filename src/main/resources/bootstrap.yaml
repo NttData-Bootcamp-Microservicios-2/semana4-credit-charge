@@ -4,6 +4,7 @@ spring:
   cloud:
     config:
       enabled: true
+      label: master
       uri: http://localhost:7000    
   banner:
     location: classpath:banner/banner.txt
